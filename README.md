@@ -44,7 +44,7 @@
 #### Instantiate a publisher
 
 ```
-from secret_store_client import Client
+from secret_store_client.client import Client
 
 secret_store_url = 'http://localhost:8010'
 parity_client_url = 'http://localhost:8545'
@@ -78,7 +78,7 @@ You can find some guidance on how to choose a threshold [here](https://wiki.pari
 #### Instantiate a consumer
 
 ```
-from secret_store_client import Client
+from secret_store_client.client import Client
 
 secret_store_url = 'http://localhost:8010'
 parity_client_url = 'http://localhost:8545'
